@@ -12,15 +12,17 @@
          bootstrap="vendor/autoload.php"
 >
     <testsuites>
-        <testsuite name="ShipStation Tests">
+        <testsuite name="SkuVault Tests">
             <directory>./tests/.</directory>
         </testsuite>
     </testsuites>
     <php>
         <env name="SKUVAULT_TESTING" value="false"/>
-        <env name="KEY" value=""/>
-        <env name="PARTNER_KEY" value=""/>
-        <env name="SECRET" value=""/>
-        <env name="API_URL" value=""/>
+        <env name="SKUVAULT_URL" value="" />
+        <env name="SKUVAULT_TENANT_TOKEN" value="" />
+        <env name="SKUVAULT_USER_TOKEN" value="" />
+        <env name="SKUVAULT_PRIVATE_URL" value="" />
+        <env name="SKUVAULT_USERNAME" value="" />
+        <env name="SKUVAULT_PASSWORD" value="" />
     </php>
 </phpunit>

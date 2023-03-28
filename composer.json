@@ -10,12 +10,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "SkuVaultPhp\\": "src/"
+            "SkuVault\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SkuVaultPhp\\Tests\\": "tests/"
+            "SkuVault\\Tests\\": "tests/"
         }
     },
     "authors": [
