@@ -1,0 +1,34 @@
+{
+    "name": "jamiehoward/skuvault-php",
+    "description": "A PHP wrapper for the SkuVault API",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "skuvault",
+        "warehouse",
+        "api"
+    ],
+    "autoload": {
+        "psr-4": {
+            "SkuVaultPhp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SkuVaultPhp\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jamie Howard",
+            "email": "jamiehowardco@gmail.com",
+            "homepage": "https://jamiehoward.co"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5|^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.10"
+    }
+}
